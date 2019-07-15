@@ -1,0 +1,10 @@
+service: aws-lambda-connect-mongo
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  region: sa-east-1
+
+functions:
+  connect:
+    handler: handler.connect
